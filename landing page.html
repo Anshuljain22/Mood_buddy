@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="landing css.css">
+</head>
+<body class="body">
+  <div class="home">
+    <div class="time"> 
+       <span id="datetime"></span>
+
+    </div>
+    <div class="BUTTONS">
+       <form>
+       <ul type="none"> <li> <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--fluent-emoji-high-contrast" width="1em" height="1em" viewBox="0 0 32 32" style="color: rgb(251, 247, 7); font-size: 30px;"><g fill="currentColor"><path d="m5.96 6.865l1.706-1.716a2.424 2.424 0 0 0 .004-3.433a2.424 2.424 0 0 0-3.437-.003L2.516 3.43a2.424 2.424 0 0 0-.003 3.437c.95.95 2.494.95 3.444 0zM3.22 6.16c-.56-.56-.56-1.47 0-2.02l1.72-1.72c.56-.56 1.47-.56 2.02 0c.56.56.56 1.47 0 2.02L5.25 6.16c-.56.56-1.47.56-2.03 0"></path><path d="M25.558 6.807a14.007 14.007 0 0 0-2.35-1.79a2.426 2.426 0 0 0-.118-3.3a2.424 2.424 0 0 0-3.437-.004L18.19 3.175a14.02 14.02 0 0 0-1.211-.14V3a1 1 0 1 0-2 0v.034C7.792 3.537 2.115 9.471 2 16.75c0 .12.1.22.22.22c.08 0 .16-.05.19-.12a3.5 3.5 0 0 1 3.09-1.87c1.28 0 2.4.7 3 1.73c.1.16.27.26.46.26h.06c.19 0 .36-.1.46-.26a3.488 3.488 0 0 1 3-1.73c.981 0 1.869.412 2.5 1.068V26.5c0 .818-.652 1.47-1.47 1.47a1.47 1.47 0 0 1-1.47-1.47a1 1 0 1 0-2 0c0 1.91 1.545 3.47 3.47 3.47a3.463 3.463 0 0 0 3.47-3.47V16.032a3.454 3.454 0 0 1 2.48-1.052c1.28 0 2.4.7 3 1.73c.1.16.27.26.46.26h.06c.19 0 .36-.1.46-.26a3.488 3.488 0 0 1 3-1.73c1.34 0 2.5.76 3.08 1.88c.04.07.11.12.19.12c.12 0 .22-.1.22-.22a13.876 13.876 0 0 0-1.447-6.009l1.601-1.601a2.424 2.424 0 0 0 .006-3.434a2.424 2.424 0 0 0-3.437-.003zM9.64 10.16c-.56-.56-.56-1.47 0-2.02l1.72-1.72c.56-.56 1.47-.56 2.02 0a1.429 1.429 0 0 1 0 2.02l-1.71 1.72c-.56.56-1.47.56-2.03 0m19.74-1.72l-1.72 1.72c-.55.56-1.46.56-2.02 0s-.56-1.47 0-2.02l1.72-1.72c.56-.56 1.47-.56 2.02 0c.56.56.56 1.47 0 2.02m-7-4l-1.72 1.72c-.55.56-1.46.56-2.02 0s-.56-1.47 0-2.02l1.72-1.72c.56-.56 1.47-.56 2.02 0c.56.56.56 1.47 0 2.02"></path></g></svg><input type="range"></li>
+       <li> <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--bi" width="1em" height="1em" viewBox="0 0 16 16" style="color: rgb(251, 247, 7); font-size: 30px;"><path fill="currentColor" d="M8 16c3.314 0 6-2 6-5.5c0-1.5-.5-4-2.5-6c.25 1.5-1.25 2-1.25 2C11 4 9 .5 6 0c.357 2 .5 4-2 6c-1.25 1-2 2.729-2 4.5C2 14 4.686 16 8 16m0-1c-1.657 0-3-1-3-2.75c0-.75.25-2 1.25-3C6.125 10 7 10.5 7 10.5c-.375-1.25.5-3.25 2-3.5c-.179 1-.25 2 1 3c.625.5 1 1.364 1 2.25C11 14 9.657 15 8 15"></path></svg><input type="range"></li>
+    <li> <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--streamline" width="1em" height="1em" viewBox="0 0 14 14" style="color: rgb(251, 247, 7); font-size: 30px;"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M13.5 9.5H.5l1 2.7a2 2 0 0 0 1.88 1.3h7.22a2 2 0 0 0 1.88-1.3Zm-7 0v-9m0 0l-5 6h5m2-4l3.5 4H8.5"></path></svg><input type="range"></li>
+<li> <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ph" width="1em" height="1em" viewBox="0 0 256 256" style="color: rgb(251, 247, 7); font-size: 30px;"><path fill="currentColor" d="M24 104a12 12 0 0 1 0-24h96a12 12 0 0 0 0-24a15.07 15.07 0 0 0-10.26 4.45a12 12 0 0 1-17-16.9A39.34 39.34 0 0 1 120 32a36 36 0 0 1 0 72Zm184-36a39.34 39.34 0 0 0-27.3 11.55a12 12 0 0 0 17 16.9A15.07 15.07 0 0 1 208 92a12 12 0 0 1 0 24H32a12 12 0 0 0 0 24h176a36 36 0 0 0 0-72m-56 84H40a12 12 0 0 0 0 24h112a12 12 0 0 1 0 24a15.11 15.11 0 0 1-10.27-4.45a12 12 0 1 0-17 16.9A39.34 39.34 0 0 0 152 224a36 36 0 0 0 0-72"></path></svg><input type="range"></li>
+    </ul> <button type="submit" style="position: absolute;right: 3px; background-color: rgba(76, 30, 2,0.25);">Reset the sounds</button></form> 
+    </div>
+
+
+
+
+
+
+
+    <div class="container">
+        <div class="timer" id="timer">25:00</div>
+        <div class="controls">
+          <button id="startPauseButton" onclick="toggleTimer()">Start</button>
+          <button id="breakFocusButton" onclick="toggleMode()">Break</button><br>
+          <button onclick="addTime(1)" style="width:60px;height:60px; border-radius: 50%;">+1 </button>
+          <button onclick="addTime(5)"style="width:60px;height:60px; border-radius: 50%;">+5 </button>
+          <button onclick="addTime(10)"style="width:60px;height:60px; border-radius: 50%;">+10 </button>
+        </div>
+      </div>
+
+
+
+
+
+      <div id="ff">
+        <div id="kk">
+        <div class="left"></div>
+        <div class="left"></div>
+        <div class="left"></div>
+        <div class="left"></div>
+        
+    </div>
+        <div id="rite">
+
+        </div>
+    </div>
+
+
+
+    <!-- <div class="containerrr">
+        <audio id="audioPlayer" controls>
+          <source src="audio/sample.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+        <div class="controls">
+          <button onclick="previousTrack()" class="but"><svg width="78" height="78" viewBox="0 0 78 78" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <rect width="78" height="78" transform="matrix(-1 0 0 1 78 0)" fill="url(#pattern0)"/>
+            <defs>
+            <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+            <use xlink:href="#image0_49_304" transform="scale(0.01)"/>
+            </pattern>
+            <image id="image0_49_304" width="100" height="100" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAAXNSR0IArs4c6QAABFZJREFUeAHtnD2OE1EQhFeQIDII4QykIBAZIQtcAXEBckiQ0EpcgZScG7ALh4ADkJAQ8SMSEAVP2PLYGj9Xz+t+/YRqJcT81HRXfbPjUdvrOTrSjwiIgAiIgAiIgAiIgAiIgAiIgAiIgAiIgAiIgAiIgAiIgAiIgAiIgAiIgAiIQDcCAB4B+ADgO4AzADe6NXduBOABgHerLCXPWwD3nNvElVudDOz8/ATwFMD5uM7+lQG82MkxXT3x7xhQcXVlTI1Pl8vVcjWgrXvJ1ZUx9T63fOze2LsggF9zzifbPgO4793Xu97qZWpie3bxzLuve71Z2/MbXwG46G7AqSCAb/O2t7Z+dWoXV2bL7uGVcuO/FudmeeXD1v8plnfodCQbZKL7AeBxJ3t0m4m/6iJdMEtYdV/f+RrA5Szfu33rVjd7d48bbn1jddHSRwC3RwjFuh/Ba9UDG6SiKzPLs+yZpeJva1cVxgg7t9y2rZSJOG1mYa2PwLzqgQ1C6tJmFtIfqjBG2MkGMeq6zyysvxGYVz2wQRbous4srL8qjBF2skEW6rrNLKy/EZhXPbBBGnVlZrlUNdK4k/XX2Cb+cDaIgy50ZmH9xRNt7MAGcdKFzSysv0Zc8YezQZx17jML6y+eaGMHNkiArswsbh+tsv4accUfzgYJ1LnMLKy/eKKNHdggwbr3rZ+zsP4accUfzgbpoGuaWVh/8UQbO7BBOuoWzSysv0Zc8YezQTrrzDML6y+eaGMHNkiCzjSzsP4accUfzgZJ1FEzC+svnmhjBzZIsq7MLLdqUVl/tRpD7GODDKD79PdPRS/sg8b623f8MNvZIIPo7uwDx/rbd/ww29kgg+h0QgY5EcWGXrIGOhnlpn6z9rLCeq3VGGIfGyRRR30lgvU3BPSaCTZIgk6DYQL0fS311sk+Mgnb9eZiAvS5lnr7vdxb5sgkbNMHVOsbfQL83Zb6CHd9MpKvEP2Rw/RErJd3f107rVOzxdoj8z/rm6mVqmGDOOlMs4UFDOvPUjNFywZx0JlnCwsQ1p+lZoqWDdKoWzRbWICw/iw1U7RskIW6ptnCAoT1Z6mZomWDLNA1zxYWIKw/S80ULRvEoPsN4GXvx3Cw/lIgW5qyQUid62wRkcNSM0VLgmZk7rOFBQhjsGgsNVO0bJCKLmy2sACp+NvaZamZot1ya18JnS0sQFjrlpopWjbIjC58trAAmfE3u8lSM0U767q+sdtsYQFSt7zZa6mZot1YpZa6zhYWIJT7/+imnjJbGE8I84i/L5aaKVryIZhuX86MCrl6Pu+hC+U0qr9b3QOPiT0FcMWtWWCh8o3eQ2cDwN1ACz6lATycCVJmiycAzvl06VMFwMlMlvWm531cOHRZnZRywy6vw28AXHcom1ICwPHqceklS/lXrvLxr4wUWmoqAiIgAiIgAiIgAiIgAiIgAiIgAiIgAiIgAiIgAiIgAiIgAiIgAiIgAiIgAnEE/gBeKSPQaUFDcAAAAABJRU5ErkJggg=="/>
+            </defs>
+            </svg>
+            </button>
+          <button id="playPauseButton" onclick="togglePlayPause()" class="but"><svg width="65" height="59" viewBox="0 0 65 59" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <rect width="65" height="59" fill="url(#pattern0)"/>
+            <defs>
+            <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+            <use xlink:href="#image0_49_305" transform="matrix(0.01 0 0 0.0110169 0 -0.0508475)"/>
+            </pattern>
+            <image id="image0_49_305" width="100" height="100" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAAXNSR0IArs4c6QAABCVJREFUeAHtnTtrFkEUhkPipVNBbTTiH/CO2oi1lz+ggqIgio03UGKZQky8oWBlmzK/RETB2kvh3VZR1OpxB9Ypkuw5s9/sTCC8A4Fx5+ycM+88edcqZ2xMQwpIASkgBaSAFJACUkAKSAEpIAWkgBRYgQoAE8Bh4BrwAHia+PMYuAkcA9bWlibkBI63NYRaUusOZwxnDWeeqF13Z772QNeBb+SPH81+M8D6zoQDLQAbgFkg5MwdX4GrwJqByhttG2Ar8CL3NEu8/xk4MFpV/lvAHuD9EnlzH70CtvsVFIgAJoEgXKnxq8SlAAcbewp7lxqfAqgFJO/eElhV6DdjoUjhwjd2V9JvBdgMfFmYpMC/n1f9rjTfi0sFDtG15aN+sndHN5f7pCtJgecXuisZeAV4V+AAXVv+AdblHiH8RwH425WkwPM3uTUnvQ/sLlC8t+XJpOKMIOCUl6TA+k6jpGGWgHMFCve2nM2tHrjnJSmwfia3bvd94FaBwr0t59zCnABgzktSYH3KKSt/GZguULi35Xxu5cC8l6TA+nRu3e77upBe16YL6SJKvyG9QHKDZVkGafqGuPzEAFmWAZI+6pGT/IksyyBNlpUOmCzLAEmWlQ6SGynLMkiTZbn8xABZlgGSLCtykj+RZRmkybLSAZNlGSDJstJBciNlWQZpsiyXnxggyzJAkmVFTvInsiyDNFlWOmCyLAMkWVY6SG6kLMsgTZbl8hMDZFkGSLKsyEn+RJZlkCbLSgdMlmWAJMtKB8mNlGUZpMmyXH5igCzLAEmWFTnJn8iyDNJkWemAybIMkGRZ6SC5kbIsgzRZlstPDJBlGSDJsiIn+RNZlkGaLCsdMFmWAZIsKx0kN1KWZZAmy3L5iQGyLAMkWVbkJH8iyzJIk2WlAybLMkCSZaWD5EbKsgzSZFkuPzFAlmWAJMuKnORPZFkGabKsdMBkWQZIsqx0kNxIWZZBmizL5ScGyLIMkGRZkZP8iSzLIE2WlQ6YLMsASZaVDpIbKcsySJNlufzEAFmWAdKKtaypeP/1Jvpj/AZpZ+vdQ8w001VP6nPgbtyt3uR0an0jxwG76p0nZjoxcsHti8vU0GVHbt1J7wNvo1TlJ78HbHkU2ifVGq+TxBwiqOl0drHWqYCHQ9Qc9miaSYZOnrXG+aHqdvdp2+aF1nClx8eB2+ZtKtx78b8ez6q2zWtpC10+QxPFUuMnsN+lo2dAaFZZuLFkgGhLz7KGCQe2AS8L3MgHYO8wVS7eBdgHBOGGHqEN7eTijBWfhIa8wJWBOmh+b+zw9hAfcU+Ctq/hHSDkzB2he+hlYLWXt9o6MA4carsm3+/RBjt8aG8AR5aj23Lb7fpoW0Of9t3hjKFDdDjzeDWhlUgKSAEpIAWkgBSQAlJACkgBKSAFpIAUqKjAP0jUx4XdRVCYAAAAAElFTkSuQmCC"/>
+            </defs>
+            </svg>
+            </button>
+          <button onclick="nextTrack()" class="but"><svg width="78" height="78" viewBox="0 0 78 78" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <rect width="78" height="78" fill="url(#pattern0)"/>
+            <defs>
+            <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+            <use xlink:href="#image0_49_303" transform="scale(0.01)"/>
+            </pattern>
+            <image id="image0_49_303" width="100" height="100" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAAXNSR0IArs4c6QAABFZJREFUeAHtnD2OE1EQhFeQIDII4QykIBAZIQtcAXEBckiQ0EpcgZScG7ALh4ADkJAQ8SMSEAVP2PLYGj9Xz+t+/YRqJcT81HRXfbPjUdvrOTrSjwiIgAiIgAiIgAiIgAiIgAiIgAiIgAiIgAiIgAiIgAiIgAiIgAiIgAiIgAiIQDcCAB4B+ADgO4AzADe6NXduBOABgHerLCXPWwD3nNvElVudDOz8/ATwFMD5uM7+lQG82MkxXT3x7xhQcXVlTI1Pl8vVcjWgrXvJ1ZUx9T63fOze2LsggF9zzifbPgO4793Xu97qZWpie3bxzLuve71Z2/MbXwG46G7AqSCAb/O2t7Z+dWoXV2bL7uGVcuO/FudmeeXD1v8plnfodCQbZKL7AeBxJ3t0m4m/6iJdMEtYdV/f+RrA5Szfu33rVjd7d48bbn1jddHSRwC3RwjFuh/Ba9UDG6SiKzPLs+yZpeJva1cVxgg7t9y2rZSJOG1mYa2PwLzqgQ1C6tJmFtIfqjBG2MkGMeq6zyysvxGYVz2wQRbous4srL8qjBF2skEW6rrNLKy/EZhXPbBBGnVlZrlUNdK4k/XX2Cb+cDaIgy50ZmH9xRNt7MAGcdKFzSysv0Zc8YezQZx17jML6y+eaGMHNkiArswsbh+tsv4accUfzgYJ1LnMLKy/eKKNHdggwbr3rZ+zsP4accUfzgbpoGuaWVh/8UQbO7BBOuoWzSysv0Zc8YezQTrrzDML6y+eaGMHNkiCzjSzsP4accUfzgZJ1FEzC+svnmhjBzZIsq7MLLdqUVl/tRpD7GODDKD79PdPRS/sg8b623f8MNvZIIPo7uwDx/rbd/ww29kgg+h0QgY5EcWGXrIGOhnlpn6z9rLCeq3VGGIfGyRRR30lgvU3BPSaCTZIgk6DYQL0fS311sk+Mgnb9eZiAvS5lnr7vdxb5sgkbNMHVOsbfQL83Zb6CHd9MpKvEP2Rw/RErJd3f107rVOzxdoj8z/rm6mVqmGDOOlMs4UFDOvPUjNFywZx0JlnCwsQ1p+lZoqWDdKoWzRbWICw/iw1U7RskIW6ptnCAoT1Z6mZomWDLNA1zxYWIKw/S80ULRvEoPsN4GXvx3Cw/lIgW5qyQUid62wRkcNSM0VLgmZk7rOFBQhjsGgsNVO0bJCKLmy2sACp+NvaZamZot1ya18JnS0sQFjrlpopWjbIjC58trAAmfE3u8lSM0U767q+sdtsYQFSt7zZa6mZot1YpZa6zhYWIJT7/+imnjJbGE8I84i/L5aaKVryIZhuX86MCrl6Pu+hC+U0qr9b3QOPiT0FcMWtWWCh8o3eQ2cDwN1ACz6lATycCVJmiycAzvl06VMFwMlMlvWm531cOHRZnZRywy6vw28AXHcom1ICwPHqceklS/lXrvLxr4wUWmoqAiIgAiIgAiIgAiIgAiIgAiIgAiIgAiIgAiIgAiIgAiIgAiIgAiIgAiIgAnEE/gBeKSPQaUFDcAAAAABJRU5ErkJggg=="/>
+            </defs>
+            </svg>
+            </button>
+        </div>
+      </div> -  ->
+      <div class="change">
+        <form action="#">
+          <input type="radio" id="Sunrise" name="yo" onclick="Firee()">
+          <label for="fire">Fire</label>
+          <input type="radio" id="water" name="yo" onclick="waterr()">
+          <label for="water">water</label>
+          <input type="radio" id="wind" name="yo" onclick="Earthh()">
+          <label for="wind">Earth</label>
+          
+        </form>
+      </div>
+
+</div>
+
+
+
+        <script>
+          function waterr(){
+            document.getElementsByClassName('home')[0].style.background='url("water.jpg")';
+            document.getElementsByClassName('home')[0].style.backgroundSize= "cover";   
+            document.getElementsByClassName('home')[0].style.backgroundPosition= "center"; 
+            document.querySelectorAll('button').forEach(function(val,i){
+              document.querySelectorAll('button')[i].style.backgroundColor="#2987F6";
+            })
+            document.getElementById('rite').style.backgroundColor="#2987F6";
+            document.getElementsByClassName('left')[0].style.backgroundColor="#2987F6";
+            document.getElementsByClassName('left')[1].style.backgroundColor="#2987F6";
+            document.getElementsByClassName('left')[2].style.backgroundColor="#2987F6";
+            document.getElementsByClassName('left')[3].style.backgroundColor="#2987F6";
+          
+            
+            // document.querySelectorAll('button').style.backgroundColor="#2987F6";
+          }
+          function Earthh(){
+            document.getElementsByClassName('home')[0].style.background='url("earth.jpg")';
+            document.getElementsByClassName('home')[0].style.backgroundSize= "cover";   
+            document.getElementsByClassName('home')[0].style.backgroundPosition= "center"; 
+            document.querySelectorAll('button').forEach(function(val,i){
+              document.querySelectorAll('button')[i].style.backgroundColor="#60CA75";
+            })
+            document.getElementById('rite').style.backgroundColor="#60CA75";
+            document.getElementsByClassName('left')[0].style.backgroundColor="#60CA75";
+            document.getElementsByClassName('left')[1].style.backgroundColor="#60CA75";
+            document.getElementsByClassName('left')[2].style.backgroundColor="#60CA75";
+            document.getElementsByClassName('left')[3].style.backgroundColor="#60CA75";
+          
+            
+            // document.querySelectorAll('button').style.backgroundColor="#2987F6";
+          }
+          function Firee(){
+            document.getElementsByClassName('home')[0].style.background='url("v49_369-transformed.png")';
+            document.getElementsByClassName('home')[0].style.backgroundSize= "cover";   
+            document.getElementsByClassName('home')[0].style.backgroundPosition= "center"; 
+            document.querySelectorAll('button').forEach(function(val,i){
+              document.querySelectorAll('button')[i].style.backgroundColor="#F67329";
+            })
+            document.getElementById('rite').style.backgroundColor="#F67329";
+            document.getElementsByClassName('left')[0].style.backgroundColor="#F67329";
+            document.getElementsByClassName('left')[1].style.backgroundColor="#F67329";
+            document.getElementsByClassName('left')[2].style.backgroundColor="#F67329";
+            document.getElementsByClassName('left')[3].style.backgroundColor="#F67329";
+          
+            
+            // document.querySelectorAll('button').style.backgroundColor="#2987F6";
+          }
+  function updateTime() {
+            var dt = new Date();
+            var datePart = dt.toLocaleDateString();
+            var timePart = dt.toLocaleTimeString();
+            document.getElementById("datetime").innerHTML = datePart + "<br>" + timePart;
+        }
+
+        updateTime();
+
+        setInterval(updateTime, 1000);
+        function addele() {
+        let task = document.getElementById("text").value;
+        let list = document.getElementById("list");
+        list.innerHTML += "<br>" + task;
+    }
+
+
+
+
+    let minutes = 25;
+  let seconds = 0;
+  let intervalId = null;
+  let isBreak = false;
+
+  function updateTimer() {
+    const timerElement = document.getElementById('timer');
+    timerElement.textContent = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+
+  }
+
+  function toggleTimer() {
+    const button = document.getElementById('startPauseButton');
+    if (intervalId) {
+      clearInterval(intervalId);
+      intervalId = null;
+      button.textContent = 'Start';
+    } else {
+      startTimer();
+      button.textContent = 'Pause';
+    }
+  }
+
+  function toggleMode() {
+    const button = document.getElementById('breakFocusButton');
+    if (isBreak) {
+      button.textContent = 'Break';
+      minutes = 25;
+      seconds = 0;
+      isBreak = false;
+      updateTimer();
+    } else {
+      button.textContent = 'Focus';
+      minutes = 5; // Break duration
+      seconds = 0;
+      isBreak = true;
+      updateTimer();
+    }
+  }
+
+  function startTimer() {
+    intervalId = setInterval(() => {
+      if (seconds === 0) {
+        if (minutes === 0) {
+          clearInterval(intervalId);
+          intervalId = null;
+          toggleMode();
+        } else {
+          minutes--;
+          seconds = 59;
+        }
+      } else {
+        seconds--;
+      }
+      updateTimer();
+    }, 1000);
+  }
+
+  function addTime(mins) {
+    if (!isBreak) {
+      minutes += mins;
+      updateTimer();
+    }
+  }
+  const audioPlayer = document.getElementById('audioPlayer');
+  const playPauseButton = document.getElementById('playPauseButton');
+  const tracks = ['audio/track1.mp3', 'audio/track2.mp3', 'audio/track3.mp3']; // Example track list
+  let currentTrackIndex = 0;
+  let isPlaying = false;
+
+  function togglePlayPause() {
+    if (isPlaying) {
+      audioPlayer.pause();
+      playPauseButton.textContent = 'Play';
+    } else {
+      audioPlayer.play();
+      playPauseButton.textContent = 'Pause';
+    }
+    isPlaying = !isPlaying;
+  }
+
+  function previousTrack() {
+    currentTrackIndex = (currentTrackIndex - 1 + tracks.length) % tracks.length;
+    loadTrack();
+  }
+
+  function nextTrack() {
+    currentTrackIndex = (currentTrackIndex + 1) % tracks.length;
+    loadTrack();
+  }
+
+  function loadTrack() {
+    audioPlayer.src = tracks[currentTrackIndex];
+    if (isPlaying) {
+      audioPlayer.play();
+    }
+  }
+        </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Music Player</title>
+<style>
+
+</style>
+</head>
+<body>
+
+
+<script>
+
+</script>
+</body>
+</html>

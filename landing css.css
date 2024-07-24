@@ -1,0 +1,173 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+.body{
+    margin:0;
+    height: 100vh;
+    width: 100%;
+}
+.home
+{
+    height: 100vh;
+    width: 100%;
+  background: url(v49_369-transformed.png);
+  background-size: cover;   
+  background-position: center;
+  margin-bottom: 20px;
+}
+.time
+{
+    width: 15%;
+    height:18vh;
+    top:58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgba(246, 115, 41,0);
+    position: absolute;
+    right: 10px;
+ 
+}
+
+.time span{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:larger;
+    text-shadow: 2px 2px 2px  black;
+}
+
+::placeholder {
+    color: rgb(255, 255, 255);
+    opacity: 1; /* Firefox */
+  }
+  
+  ::-ms-input-placeholder { /* Edge 12-18 */
+    color: rgb(255, 255, 255);
+  }
+
+
+.BUTTONS
+{
+    position: absolute;
+    right:10px;
+    display: flex;
+    justify-content: space-between;
+    top:50% ;
+
+}
+svg{
+    margin-right: 40px;}
+
+
+
+
+
+
+
+
+
+    .container {
+        position: absolute;
+        top: 17%;
+        left: 38%;
+        text-align: center;
+        margin-top: 50px;
+      }
+      button{
+        background-color: rgba(246, 115, 41,0.46);
+        height: 70px;
+        width: 165px;
+        margin-bottom: 40px;
+        color: white;
+        font-size: large;
+        font-family: 'Times New Roman', Times, serif;
+        border-collapse:collapse;
+        border: 0px solid rgb(0, 0, 0);
+        margin: 12px;
+        border-radius: 10px;
+      } 
+      button:hover{
+        background-color: rgba(225, 136, 48, 0.7);
+        cursor: pointer;
+      }
+      .timer {
+        font-size: 100px;
+      }
+      .controls {
+        margin-top: 20px;
+        background-color: transparent;
+      }
+      .progress-circle {
+      position: relative;
+      width: 100px;
+      height: 50px;
+    }
+    
+    .progress-circle svg {
+      width: 100%;
+      height: 100%;
+    }
+    
+    .progress-circle circle {
+      fill: transparent;
+      stroke: #e6e6e6;
+      stroke-width: 8;
+    }
+    
+    .progress-circle circle:last-child {
+      stroke: #00cc66;
+      stroke-dasharray: 157; /* Circumference of a circle with radius 20 */
+      stroke-dashoffset: 157; /* Hide the circle initially */
+      animation: fillProgress 1500s linear forwards; /* Animation duration is 25 minutes */
+    }
+    
+    @keyframes fillProgress {
+      from {
+        stroke-dashoffset: 157; /* Start with an empty circle */
+      }
+      to {
+        stroke-dashoffset: 0; /* Fully fill the circle when animation ends */
+      }
+    }
+
+        #rite{
+            width: 240px;
+            height: 460px;
+            background-color: rgba(246, 115, 41,0.46);
+            border-radius: 0 20px 20px 0;
+        }
+        .left{
+            width: 50px;
+            height: 100px;
+            background-color: rgba(246, 115, 41,0.46);
+            margin-bottom: 20px;
+            
+        }
+        #kk{
+            display: inline-block;
+            /* background-color: aqua; */
+        }
+        #ff{
+            display: flex;
+            position: absolute;
+            top: 15%;
+            left: 1%;
+        }
+
+        audio {
+            width: 100%;
+            max-width: 400px;
+            margin-bottom: 20px;
+          }
+          .controls button {
+            margin: 0 10px;
+          }
+
+
+          .containerrr {
+            text-align: center;
+            margin-top: 50px;
+          }
+        .but{
+            
+        }
